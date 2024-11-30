@@ -23,4 +23,5 @@ public class EventoDTO {
     private boolean incluirTarefas;
     private boolean listaConvidados;
     private boolean fornecedores;
+
 }
