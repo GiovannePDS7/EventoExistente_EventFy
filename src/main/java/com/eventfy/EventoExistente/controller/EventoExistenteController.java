@@ -35,6 +35,7 @@ public class EventoExistenteController {
         EventoDTO dto = new EventoDTO();
 
         // Mapeando os campos do Evento para o EventoDTO
+        dto.setIdEvento(evento.getIdEvento());
         dto.setNomeEvento(evento.getNomeEvento());
         dto.setDataEvento(evento.getDataEvento());
         dto.setHorarioInicio(evento.getHorarioInicio());
