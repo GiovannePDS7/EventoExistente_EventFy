@@ -12,7 +12,7 @@ import java.time.LocalTime;
 @Getter
 @Setter
 public class EventoDTO {
-
+    private Long idEvento;
     private String nomeEvento;
     private LocalDate dataEvento;
     private LocalTime horarioInicio;
